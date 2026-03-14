@@ -130,9 +130,7 @@ dataset/
    val/Segmentation
 
 Test images should be placed inside:
-
 testImages/
-
 Test images were not used during training.
 
 Training the Model
@@ -163,13 +161,11 @@ Calculates evaluation metrics
 Reproducing Final Results
 
 To reproduce the results:
-
 Step 1 – Install dependencies
 pip install -r requirements.txt
 Step 2 – Download dataset
 
 Place dataset in project directory.
-
 Step 3 – Train model
 python train.py
 Step 4 – Run evaluation
@@ -198,7 +194,6 @@ models/offroad_segmentation_model.pth
 Training Logs
 Stored in:
 runs/training_logs/
-
 Includes:
 training loss
 validation loss
@@ -214,7 +209,6 @@ Brown → ground/landscape
 Gray → rocks
 Blue → sky
 Dark regions → logs or bushes
-
 These segmentation maps allow autonomous systems to understand terrain structure.
 
 Challenges Encountered
@@ -224,7 +218,6 @@ Visual similarity
 Some classes have similar textures:
 dry grass vs dry bushes
 rocks vs ground clutter
-This can lead to occasional misclassification.
 
 *Possible Improvements
 Future work may include:
